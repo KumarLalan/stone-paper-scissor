@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <p><h1>Stone Paper Scissor</h1><h4>by lalan kumar</h4> </p>
+    </div>
+    <div class="container">
+    
+        <div class="score">
+            <div class="user">
+                <h2>My score: </h2>
+                <h2 id="myscore"></h2>
+            </div>
+            <div class="computer">
+                <h2>Computer Sccore: </h2>
+                <h2 id="compscore"></h2>
+            </div>
+        </div>
+        <div class="show">
+            <div class="usershow">
+                <h2>User</h2>
+                <img class="Clip" id="uimg"  src="" alt="">
+            </div>
+            <div class="compshow">
+                <h2>Computer</h2>
+                <img class="Clip" id="cimg" src="" alt="">
+            </div>
+        </div>
+        <div class="result">
+            <h2>Result : </h2>
+            <h2 id="result"></h2>
+        </div>
+        <div class="image">
+            <img class="Clip" style="height: 200px; width: 200px;"  onclick="myfun1()" src="stone.png" alt="Stone">
+            <img class="Clip" style="height: 200px; width: 200px;"  onclick="myfun2()" src="Paper.png" alt="paper">
+            <img class="Clip" style="height: 200px; width: 200px;"  onclick="myfun3()" src="Scissor.png" alt="Scissor">
+        </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
