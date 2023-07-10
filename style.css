@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+  color:blue;
+  text-align: center;
+}
+h4{
+    color:aqua;
+    text-align: right;
+    padding-right: 20px;
+
+}
+.container{
+ text-align: center;
+ color:rgb(249, 10, 10);
+}
+body{
+    background: linear-gradient(45deg,red,black);
+    align-items:center ;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.score{
+    display: flex;
+    justify-content: center;
+}
+.score .computer{
+    margin-left: 100px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+.user{
+    display: flex;
+    justify-content: center;
+}
+.computer{
+    display: flex;
+    justify-content: center;
+}
+.Clip{
+    clip-path: circle(46.1% at 50% 50%);
+}
